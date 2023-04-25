@@ -1,10 +1,16 @@
 body {
     background: #CDE7B0;
+    font-family: Arial;
+    margin: 0px;
+}
+
+header{
+    margin: 10px;
+    margin-right: 0px;
 }
 
 .logo{
     background: white;
-    margin-left: 0px;
     border: 5px solid black;
     padding: 0px -70px 0px -70px;
 
@@ -14,12 +20,108 @@ body {
 h1{
     background: yellow;
     font-size: 100px;
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 1px;
     margin-left: 290px;
-    padding: 80px 0px 69px 40px;
+    padding: 80px 0px 68px 40px;
     
 }
 
-p{
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.buttons{
     clear: both;
+}
+
+#menu{
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 150px;
+    height: 65px;
+
+    background-color: #a2f59f;
+    font-size: 25px;
+    font-family: serif;
+    border-radius: 15px;
+
+    box-shadow: inset 0 0 0 0 #9fc1f5;
+    transition: ease-out 0.5s;
+}
+#menu:hover{
+    box-shadow: inset 150px 0 75px 0 #9fc1f5;
+    cursor: pointer;
+}
+#menu:active{
+    transition: ease-out 0.3s;
+    background-color: #4588eb;
+    box-shadow: inset 0 0 0 0;
+}
+
+#contact{
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 150px;
+    height: 65px;
+
+    background-color: #a2f59f;
+    font-size: 25px;
+    font-family: serif;
+    border-radius: 15px;
+
+    box-shadow: inset 0 0 0 0 #9fc1f5;
+    transition: ease-out 0.5s;
+}
+
+#contact:hover{
+    box-shadow: inset 150px 0 75px 0 #9fc1f5;
+    cursor: pointer;
+}
+
+#contact:active{
+    transition: ease-out 0.3s;
+    background-color: #4588eb;
+    box-shadow: inset 0 0 0 0;
+}
+
+section{
+    float: left;
+    width: 70%;
+    margin-bottom: 150px;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    min-width: 110px;
+    max-width: 300px;
+    background-color: #6ca0ee;
+    text-align: center;
+}
+.asideHeader{
+    padding-left: 15px;
+}
+
+ul{
+    list-style-type: none;
+    list-style-position: inherit;
+}
+
+.marked{
+    list-style-type: disc;
+}
+
+footer{
+    clear: both;
+    margin-top: 10px;
+    background-color: #5e5e5e;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5.5rem;
 }

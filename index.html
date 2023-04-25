@@ -3,6 +3,7 @@
 
 <head>
   <meta charset = "utf-8">
+  <meta name = "author" content = "Huntington">
   <title>Ximapa unofficial website</title>
   <link href = "css/styles.css" rel = " stylesheet">
 </head>
@@ -10,18 +11,45 @@
 
 <body>
   
-  <div class = "logo">
-    <img src="img/Ximapa_Logo.png" alt = "Ximapa Logo">
-  </div>
-  
-  <h1>Ximapa</h1>
+  <header>
+    <div class = "logo">
+      <img src="img/Ximapa_Logo.png" alt = "Ximapa Logo">
+    </div>
+    <h1>Ximapa</h1>
+  </header>
+
   <div class = "buttons">
-    <button id = "aboutUs">About us</button>
-    <button id = "Menu">Menu</button>
-    <button id = "Contact">Contact</button>
+    <a href = "pages/menu.html"><button id = "menu">Menu</button></a>
+    <button id = "contact">Contact</button>
 
   </div>
-  <p>I'm hosted with GitHub Page.</p>
+
+  <div class = "container">
+    <section>
+      <h2>About Us</h2>
+      <p>A family owned restaurant who serves amazing mexican food that is sure
+        to put a smile on your face. We got all your classic Mexican cuisine so 
+        come on down to satisfy your appetite. Here we are family so if make sure
+        to tell us anything you might need such as allergy accomendation or prefrences!
+      </p>
+    </section>
+
+    <aside>
+      <h2 class = "asideHeader">Opening Hours</h2>
+      <ul>
+        <li class = "marked">Monday - Friday:</li>
+        <li>8:00 am - 10:00 pm</li>
+        <li>&nbsp</li>
+        <li class = "marked">Saturday - Sunday:</li>
+        <li>9:30 am - 10:00 pm</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <P>This is an unofficial website</P>
+    <P><a href = "http://orderximapamexicanfood.com/">click here</a> to go to real website</P>
+  </footer>
 
 </body>
 
